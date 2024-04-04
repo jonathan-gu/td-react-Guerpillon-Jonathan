@@ -13,12 +13,13 @@ const TaskForm = ({ tasks, setTasks }) => {
             const tasksWithNewTask = [...tasks, { name: task, completed: false }]
             setTasks(tasksWithNewTask)
             localStorage.setItem("tasks", JSON.stringify(tasksWithNewTask))
+            setTask("");
         }
     }
 
     return (
         <div data-cy="task-form" className="task-form">
-            <input data-cy="task-input" onChange={handleOnChange} />
+            <input data-cy="task-input" value={task} onChange={handleOnChange} />
             <button data-cy="add-task-btn" onClick={handleOnClick}>Ajouter</button>
         </div>
     );
