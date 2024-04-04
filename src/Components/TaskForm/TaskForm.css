@@ -1,0 +1,8 @@
+input {
+    margin-right: 20px;
+}
+
+.task-form {
+    display: flex;
+    justify-content: center;
+}

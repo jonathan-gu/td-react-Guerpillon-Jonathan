@@ -1,0 +1,8 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 20px;   
+}
