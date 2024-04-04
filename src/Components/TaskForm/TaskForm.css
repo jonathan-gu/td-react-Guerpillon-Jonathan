@@ -3,6 +3,23 @@ input {
 }
 
 .task-form {
+    align-items: center;
     display: flex;
     justify-content: center;
+}
+
+input {
+    border-radius: 10px;
+    border-color: #00000070;
+    height: 21px;
+}
+
+button {
+    background-color: #BBBBBB;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    margin: 10px 5px;
+    width: 120px;
 }

@@ -13,5 +13,33 @@
 }
 
 .buttons button {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
     margin: 10px 5px;
+    width: 120px;
+}
+
+#filter-btn-all {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#filter-btn-done {
+    background-color: #0E49B5;
+    color: #FFFFFF;
+}
+
+#filter-btn-undone {
+    background-color: #a70107;
+    color: #FFFFFF;
+}
+
+li {
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px #00000030;
+    margin: 15px 0;
+    padding: 10px;
+    list-style-type:none;
 }

@@ -37,9 +37,9 @@ const TaskList = ({ tasks, setTasks }) => {
                 ))}
             </ul>
             <div className="buttons">
-            <button data-cy="filter-btn-all" onClick={() => setFilter('all')}>Toutes</button>
-                <button data-cy="filter-btn-done" onClick={() => setFilter('done')}>Complétées</button>
-                <button data-cy="filter-btn-undone" onClick={() => setFilter('undone')}>Non Complétées</button>
+                <button id="filter-btn-all" data-cy="filter-btn-all" onClick={() => setFilter('all')}>Toutes</button>
+                <button id="filter-btn-done" data-cy="filter-btn-done" onClick={() => setFilter('done')}>Complétées</button>
+                <button id="filter-btn-undone" data-cy="filter-btn-undone" onClick={() => setFilter('undone')}>Non Complétées</button>
             </div>
         </>
     );
